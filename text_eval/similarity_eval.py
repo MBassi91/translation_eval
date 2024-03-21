@@ -9,8 +9,8 @@ A very simple function to calculate similariy beteween two texts using BERT embe
 """
 
 # Initialize BERT tokenizer and model
-#tokenizer = BertTokenizer.from_pretrained('bert-base-multilingual-cased')
-#model = BertModel.from_pretrained('bert-base-multilingual-cased')
+tokenizer = BertTokenizer.from_pretrained('bert-base-multilingual-cased')
+model = BertModel.from_pretrained('bert-base-multilingual-cased')
 
 #NLTK's resources downloaded for BLEU score calculation
 nltk.download('punkt')
